@@ -8,9 +8,6 @@ document.addEventListener('DOMContentLoaded', function () {
   const canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d");
 
-    window.canvas = canvas;
-    window.ctx = ctx;
-
   let images = [],
     promises = [];
 
